@@ -1,0 +1,85 @@
+img {
+	height: 100px;
+	width: 100px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+h1 {
+	background-color: #4800FF;
+	color: white;
+	font-size: 60px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #1A5BF0; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #050005;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #1A5BF0;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #050005;
+  color: white;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+h2	{
+	font-size: 40px;
+	margin-left: 5px;
+	padding: 1px 16px;
+}
+
+.besedilo	{
+	font-size: 20px;
+	margin-left: 5px;
+	padding: 1px 16px;
+}
+
+body	{
+	background-color: #86F0FF;
+}
