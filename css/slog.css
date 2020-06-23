@@ -83,8 +83,12 @@ h2	{
 body	{
 	background-color: #86F0FF;
 }
-.viri{
+.viri	{
 	font-size: 10px;
 	margin-left: 5px;
 	padding: 1px 16px;
+	color: white;
+}
+footer	{
+	background-color: #4800FF;
 }
