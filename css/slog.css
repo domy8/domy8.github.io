@@ -89,6 +89,7 @@ body	{
 	padding: 1px 16px;
 }
 footer	{
+	bottom: 0px;
 	background-color: #4800FF;
 	color: white;
 	font-size: 10px;
