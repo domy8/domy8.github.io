@@ -1,16 +1,16 @@
-img {
+img {				<!-- Določim kako zgled in postavitev slike -->
 	height: 100px;
 	width: 100px;
 	margin-left: 25px;
 	margin-right: 25px;
 }
-h1 {
+h1 {					<!-- Določim zgled naslovov (1. naslovi) -->
 	background-color: #4800FF;
 	color: white;
 	font-size: 60px;
 }
 
-.navbar {
+.navbar {			<!-- -->
   overflow: hidden;
   background-color: #1A5BF0; 
 }
