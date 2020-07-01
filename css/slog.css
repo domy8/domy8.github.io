@@ -1,33 +1,37 @@
-img {				/* Določim kako zgled in postavitev slike */
+/* Določim kako zgled in postavitev slike (samo logo) */
+img {
 	height: 100px;
 	width: 75px;
 	margin-left: 25px;
 	margin-right: 25px;
 }
+/* posebni stil slik za pogoje */
 .pogoji	{
 	height: 100px;
 	width: 100px;
 	margin-left: 25px;
 	margin-right: 25px;
 }
+/* posebni stil slik za licence */
 .licence	{
 	height: 100px;
 	width: 150px;
 	margin-left: 25px;
 	margin-right: 25px;
 }
-h1 {					/* Določim zgled naslovov (1. naslovi) */
+/* Določim zgled naslovov (1. naslovi) */
+h1 {
 	background-color: #4800FF;
 	color: white;
 	font-size: 60px;
 }
-
-.navbar {			/* stil navigacijskega menija */
+/* stil navigacijskega menija */
+.navbar {
   overflow: hidden;
   background-color: #1A5BF0; 
 }
-
-.navbar a {		/* linki v navigacijskem meniju */
+/* linki v navigacijskem meniju */
+.navbar a {
   float: left;
   font-size: 16px;
   color: white;
@@ -35,13 +39,13 @@ h1 {					/* Določim zgled naslovov (1. naslovi) */
   padding: 14px 16px;
   text-decoration: none;
 }
-
-.subnav {		/* stil podnavigacijskega menija /*
+/* stil podnavigacijskega menija /*
+.subnav {
   float: left;
   overflow: hidden;
 }
-
-.subnav .subnavbtn {		/* stil gumbov podnavigacijskega menija */
+/* stil gumbov podnavigacijskega menija */
+.subnav .subnavbtn {
   font-size: 16px;  
   border: none;
   outline: none;
@@ -51,12 +55,12 @@ h1 {					/* Določim zgled naslovov (1. naslovi) */
   font-family: inherit;
   margin: 0;
 }
-
-.navbar a:hover, .subnav:hover .subnavbtn {	/* Dodam da navigacijski link spremeni barvo, ko greš čez z miško */
+/* Dodam da navigacijski link spremeni barvo, ko greš čez z miško */
+.navbar a:hover, .subnav:hover .subnavbtn {
   background-color: #050005;
 }
-
-.subnav-content {		/* stil vsebine podnavigacijskega menija (je skrit, se ga ne vidi) */
+/* stil vsebine podnavigacijskega menija (je skrit, se ga ne vidi) */
+.subnav-content {
   display: none;
   position: absolute;
   left: 0;
@@ -64,39 +68,39 @@ h1 {					/* Določim zgled naslovov (1. naslovi) */
   width: 100%;
   z-index: 1;
 }
-
-.subnav-content a {		/* stil linkov podnavigacijskega menija */
+/* stil linkov podnavigacijskega menija */
+.subnav-content a {
   float: left;
   color: white;
   text-decoration: none;
 }
-
-.subnav-content a:hover {		/* dodam barvo vsebini podnavigacijskega menija, ko greš z miško čez */
+/* dodam barvo vsebini podnavigacijskega menija, ko greš z miško čez */
+.subnav-content a:hover {
   background-color: #050005;
   color: white;
 }
-
-.subnav:hover .subnav-content {		/* ko greš z miško čez link, ki ima podnavigacijski menij, da se pokaže (ker je prej skrit) */
+/* ko greš z miško čez link, ki ima podnavigacijski menij, da se pokaže (ker je prej skrit) */
+.subnav:hover .subnav-content {
   display: block;
 }
-
-h2	{			/* stil 2. naslova */
+/* stil 2. naslova */
+h2	{
 	font-size: 40px;
 	margin-left: 5px;
 	padding: 1px 16px;
 }
-
-.besedilo	{		/* stil paragrafa (vsebina) */
+/* stil paragrafa (vsebina) */
+.besedilo	{
 	font-size: 20px;
 	margin-left: 5px;
 	padding: 1px 16px;
 }
-
-body	{				/* barva ozadja */
+/* barva ozadja */
+body	{
 	background-color: #86F0FF;
 }
-
-footer	{				/* stil končnice */
+/* stil končnice */
+footer	{
 	position: bottom;
 	background-color: #4800FF;
 	color: white;
