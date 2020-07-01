@@ -1,24 +1,24 @@
 /* Določim kako zgled in postavitev slike (samo logo) */
-img {
+/*img {
 	height: 100px;
 	width: 75px;
 	margin-left: 25px;
 	margin-right: 25px;
-}
+}*/
 /* posebni stil slik za pogoje */
-.pogoji	{
+/*.pogoji	{
 	height: 100px;
 	width: 100px;
 	margin-left: 25px;
 	margin-right: 25px;
-}
+}*/
 /* posebni stil slik za licence */
-.licence	{
+/*.licence	{
 	height: 100px;
 	width: 150px;
 	margin-left: 25px;
 	margin-right: 25px;
-}
+}*/
 /* Določim zgled naslovov (1. naslovi) */
 h1 {
 	background-color: #4800FF;
