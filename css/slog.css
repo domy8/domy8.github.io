@@ -1,21 +1,21 @@
-img {				<!-- Določim kako zgled in postavitev slike -->
+img {				/* Določim kako zgled in postavitev slike */
 	height: 100px;
 	width: 100px;
 	margin-left: 25px;
 	margin-right: 25px;
 }
-h1 {					<!-- Določim zgled naslovov (1. naslovi) -->
+h1 {					/* Določim zgled naslovov (1. naslovi) */
 	background-color: #4800FF;
 	color: white;
 	font-size: 60px;
 }
 
-.navbar {			<!-- -->
+.navbar {			/* stil navigacijskega menija */
   overflow: hidden;
   background-color: #1A5BF0; 
 }
 
-.navbar a {
+.navbar a {		/* linki v navigacijskem meniju */
   float: left;
   font-size: 16px;
   color: white;
@@ -24,12 +24,12 @@ h1 {					<!-- Določim zgled naslovov (1. naslovi) -->
   text-decoration: none;
 }
 
-.subnav {
+.subnav {		/* stil podnavigacijskega menija /*
   float: left;
   overflow: hidden;
 }
 
-.subnav .subnavbtn {
+.subnav .subnavbtn {		/* stil gumbov podnavigacijskega menija */
   font-size: 16px;  
   border: none;
   outline: none;
@@ -40,11 +40,11 @@ h1 {					<!-- Določim zgled naslovov (1. naslovi) -->
   margin: 0;
 }
 
-.navbar a:hover, .subnav:hover .subnavbtn {
+.navbar a:hover, .subnav:hover .subnavbtn {	/* Dodam da navigacijski link spremeni barvo, ko greš čez z miško */
   background-color: #050005;
 }
 
-.subnav-content {
+.subnav-content {		/* stil vsebine podnavigacijskega menija (je skrit, se ga ne vidi) */
   display: none;
   position: absolute;
   left: 0;
@@ -53,38 +53,38 @@ h1 {					<!-- Določim zgled naslovov (1. naslovi) -->
   z-index: 1;
 }
 
-.subnav-content a {
+.subnav-content a {		/* stil linkov podnavigacijskega menija */
   float: left;
   color: white;
   text-decoration: none;
 }
 
-.subnav-content a:hover {
+.subnav-content a:hover {		/* dodam barvo vsebini podnavigacijskega menija, ko greš z miško čez */
   background-color: #050005;
   color: white;
 }
 
-.subnav:hover .subnav-content {
+.subnav:hover .subnav-content {		/* ko greš z miško čez link, ki ima podnavigacijski menij, da se pokaže (ker je prej skrit) */
   display: block;
 }
 
-h2	{
+h2	{			/* stil 2. naslova */
 	font-size: 40px;
 	margin-left: 5px;
 	padding: 1px 16px;
 }
 
-.besedilo	{
+.besedilo	{		/* stil paragrafa (vsebina) */
 	font-size: 20px;
 	margin-left: 5px;
 	padding: 1px 16px;
 }
 
-body	{
+body	{				/* barva ozadja */
 	background-color: #86F0FF;
 }
 
-footer	{
+footer	{				/* stil končnice */
 	position: bottom;
 	background-color: #4800FF;
 	color: white;
