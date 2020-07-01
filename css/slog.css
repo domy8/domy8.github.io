@@ -1,6 +1,18 @@
 img {				/* Določim kako zgled in postavitev slike */
 	height: 100px;
+	width: 75px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.pogoji	{
+	height: 100px;
 	width: 100px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.licence	{
+	height: 100px;
+	width: 150px;
 	margin-left: 25px;
 	margin-right: 25px;
 }
